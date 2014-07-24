@@ -633,7 +633,7 @@ namespace X360.FATX
             {
                 // Nulls out a new block and returns the start of the new block
                 xDrive.xIO.Position = Partition.BlockToOffset(xBlock[0]);
-                List<byte> xbuff = new List<byte>();
+                //List<byte> xbuff = new List<byte>();
                 byte[] xnull = new byte[Partition.xBlockSize];
                 xDrive.xIO.Write(xnull);
                 xFileBlocks.Add(xBlock[0]);

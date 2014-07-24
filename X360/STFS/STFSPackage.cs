@@ -2205,7 +2205,7 @@ namespace X360.STFS
                 xFileDirectory.Add(y);
                 return xDoAdd(ref xIOIn, ref xEntAlloc, ref xFileAlloc);
             }
-            catch (Exception x) { return (xActive = false); throw x; }
+            catch (Exception x) { return (xActive = false); /*throw x;*/ }
         }
 
         /// <summary>
