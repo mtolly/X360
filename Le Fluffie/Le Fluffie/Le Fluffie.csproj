@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E72DC7F9-6786-4B1B-879B-2F81026FE688}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Le_Fluffie</RootNamespace>
+    <AssemblyName>Le Fluffie</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>paw.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=7.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Documents\Visual Studio 2008\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Documents\Visual Studio 2008\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="X360, Version=1.0.0.33, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\X360\X360\bin\Release\X360.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FATXBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FATXBrowser.Designer.cs">
+      <DependentUpon>FATXBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FATXViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FATXViewer.Designer.cs">
+      <DependentUpon>FATXViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileProp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileProp.Designer.cs">
+      <DependentUpon>FileProp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game Orderer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game Orderer.Designer.cs">
+      <DependentUpon>Game Orderer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GDFViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GDFViewer.Designer.cs">
+      <DependentUpon>GDFViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoToDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoToDialog.Designer.cs">
+      <DependentUpon>GoToDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helper.Designer.cs">
+      <DependentUpon>Helper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LFPlugIn.cs" />
+    <Compile Include="MultiAdder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiAdder.Designer.cs">
+      <DependentUpon>MultiAdder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiSTFS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiSTFS.Designer.cs">
+      <DependentUpon>MultiSTFS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PackageExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PackageExplorer.Designer.cs">
+      <DependentUpon>PackageExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HDDGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HDDGameForm.Designer.cs">
+      <DependentUpon>HDDGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusicView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusicView.Designer.cs">
+      <DependentUpon>MusicView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drive Selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drive Selector.Designer.cs">
+      <DependentUpon>Drive Selector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GPDViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GPDViewer.Designer.cs">
+      <DependentUpon>GPDViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PackageCreatez.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PackageCreatez.Designer.cs">
+      <DependentUpon>PackageCreatez.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PackageTypeSel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PackageTypeSel.Designer.cs">
+      <DependentUpon>PackageTypeSel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PIDownloader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PIDownloader.Designer.cs">
+      <DependentUpon>PIDownloader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FATXBrowser.resx">
+      <DependentUpon>FATXBrowser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FATXViewer.resx">
+      <DependentUpon>FATXViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileProp.resx">
+      <DependentUpon>FileProp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game Orderer.resx">
+      <DependentUpon>Game Orderer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GDFViewer.resx">
+      <DependentUpon>GDFViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoToDialog.resx">
+      <DependentUpon>GoToDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helper.resx">
+      <DependentUpon>Helper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiAdder.resx">
+      <DependentUpon>MultiAdder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiSTFS.resx">
+      <DependentUpon>MultiSTFS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackageExplorer.resx">
+      <DependentUpon>PackageExplorer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GPDViewer.resx">
+      <DependentUpon>GPDViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HDDGameForm.resx">
+      <DependentUpon>HDDGameForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusicView.resx">
+      <DependentUpon>MusicView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drive Selector.resx">
+      <DependentUpon>Drive Selector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackageCreatez.resx">
+      <DependentUpon>PackageCreatez.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackageTypeSel.resx">
+      <DependentUpon>PackageTypeSel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PIDownloader.resx">
+      <DependentUpon>PIDownloader.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Renamer.resx">
+      <DependentUpon>Renamer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SS.resx">
+      <DependentUpon>SS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatsForm.resx">
+      <DependentUpon>StatsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updater.resx">
+      <DependentUpon>Updater.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Renamer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Renamer.Designer.cs">
+      <DependentUpon>Renamer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SS.Designer.cs">
+      <DependentUpon>SS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatsForm.Designer.cs">
+      <DependentUpon>StatsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updater.Designer.cs">
+      <DependentUpon>Updater.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paw.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="paw.ico" />
+    <None Include="Resources\dalavin.jpg" />
+    <Content Include="Resources\LFLiveUpdater.exe" />
+    <None Include="Resources\DalavinSmall.png" />
+    <None Include="Resources\lf.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

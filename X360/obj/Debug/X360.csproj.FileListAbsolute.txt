@@ -1,7 +1,0 @@
-C:\Users\Me\Documents\Visual Studio 2008\Projects\X360\X360\bin\Debug\X360.dll
-C:\Users\Me\Documents\Visual Studio 2008\Projects\X360\X360\bin\Debug\X360.pdb
-C:\Users\Me\Documents\Visual Studio 2008\Projects\X360\X360\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Me\Documents\Visual Studio 2008\Projects\X360\X360\obj\Debug\X360.Properties.Resources.resources
-C:\Users\Me\Documents\Visual Studio 2008\Projects\X360\X360\obj\Debug\X360.csproj.GenerateResource.Cache
-C:\Users\Me\Documents\Visual Studio 2008\Projects\X360\X360\obj\Debug\X360.dll
-C:\Users\Me\Documents\Visual Studio 2008\Projects\X360\X360\obj\Debug\X360.pdb

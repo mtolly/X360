@@ -1,5 +1,5 @@
-This is an archive of the source to DJ SkunkieButt's X360 .NET library.
-This source was previously available at [DJ's site](http://skunkiebutt.com/) but is now taken down;
-however it is still available at the [Internet Archive](https://web.archive.org/web/*/http://skunkiebutt.com/).
+This is an archive of the source to DJ SkunkieButt's X360 .NET library and accompanying GUI program Le Fluffie.
+This source was previously available at [his site](http://skunkiebutt.com/) but has now been taken down.
+However, it is still available at the [Internet Archive](https://web.archive.org/web/*/http://skunkiebutt.com/).
 
-The library is available for use under the GPL version 3; see `READ ME.txt` for details.
+The code is available under the GPL version 3; see `X360/READ ME.txt` for details.
